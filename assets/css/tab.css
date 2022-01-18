@@ -1,0 +1,16 @@
+@media all and (min-width: 700px) and (max-width: 1000px) {
+  /* **********
+     MAIN 
+  ********** */
+  .list {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .sublist {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+/*# sourceMappingURL=tab.css.map */

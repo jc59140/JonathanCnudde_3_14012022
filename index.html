@@ -14,7 +14,7 @@
 
         <link rel="stylesheet" href="./assets/css/normalize.css" />
         <link rel="stylesheet" href="./assets/css/style.css" />
-        <!-- <link rel="stylesheet" href="./assets/css/tablette.css" /> -->
+        <link rel="stylesheet" href="./assets/css/tab.css" />
         <!-- <link rel="stylesheet" href="./assets/css/desktop.css" /> -->
     </head>
     <body>
@@ -24,35 +24,37 @@
             </div>
         </header>
         <main>
-            <section class="search">
-                <form method="post" action="#">
-                    <span><i class="fas fa-map-marker-alt"></i></span>
-                    <input type="text" name="city" id="city" placeholder="Paris, Belleville" size=11/>
-                </form>
-                <div class="search__heading">
-                    <h1>Réservez le menu qui vous convient</h1>
-                    <p class="search__heading-info">Découvrez des restaurants d'exception, sélectionnés par nos soins.</p>
-                    <button>Explorer nos restaurants</button>
-                </div>
-            </section>
-            <section class="functionning">
-                <h2>Fonctionnement</h2>
-                <div>
-                    <p class="bullet">1</p>
-                    <span><i class="fas fa-mobile-alt"></i></span>
-                    <p class="title">Choisissez un restaurant</p>
-                </div>
-                <div>
-                    <p class="bullet">2</p>
-                    <span><i class="fas fa-list-ul"></i></span>
-                    <p class="title">Composez votre menu</p>
-                </div>
-                <div>
-                    <p class="bullet">3</p>
-                    <span><i class="fas fa-store purple"></i></span>
-                    <p class="title">Dégustez au restaurant</p>
-                </div>
-            </section>
+            <div class="main-wrapper">             
+                <section class="search">
+                    <form action="#">
+                        <span><i class="fas fa-map-marker-alt"></i></span>
+                        <input type="text" name="city" id="city" placeholder="Paris, Belleville" size=11/>
+                    </form>
+                    <div class="search__heading">
+                        <h1>Réservez le menu qui vous convient</h1>
+                        <p class="search__heading-info">Découvrez des restaurants d'exception, sélectionnés par nos soins.</p>
+                        <button>Explorer nos restaurants</button>
+                    </div>
+                </section>
+                <section class="functionning">
+                    <h2>Fonctionnement</h2>
+                    <div>
+                        <p class="bullet">1</p>
+                        <span><i class="fas fa-mobile-alt"></i></span>
+                        <p class="title">Choisissez un restaurant</p>
+                    </div>
+                    <div>
+                        <p class="bullet">2</p>
+                        <span><i class="fas fa-list-ul"></i></span>
+                        <p class="title">Composez votre menu</p>
+                    </div>
+                    <div>
+                        <p class="bullet">3</p>
+                        <span><i class="fas fa-store purple"></i></span>
+                        <p class="title">Dégustez au restaurant</p>
+                    </div>
+                </section>
+            </div>
             <section class="restaurants">
                 <h2>Restaurants</h2>
                 <div class="list">
