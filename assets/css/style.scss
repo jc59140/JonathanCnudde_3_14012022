@@ -27,6 +27,16 @@ a{
     text-decoration: none;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+  
+
 /* ----------
    HEADER 
 ---------- */
@@ -228,9 +238,6 @@ a{
     }
 }
   
-  
-  
-  
   /* #restaurants{
       border: 2px solid blue;
   }
@@ -255,13 +262,32 @@ a{
   } */
 
 
-
-
-
 /* //////////
    FOOTER 
 ////////// */
+footer {
+    padding: 25px 20px 30px;
+    background-color: black;
+    color: white;
+    opacity: 0.85;
 
+    p{
+        font-family: "Shrikhand";
+        padding-bottom: 10px;
+    }
+
+    li{
+        padding-bottom: 10px;
+
+        i{
+            display: flex;
+            flex-direction: start;
+            width: 16px;
+            font-size: 80%;
+            margin-right: 15px;
+        }
+    }
+  }
 
 /* 
             BORDER  

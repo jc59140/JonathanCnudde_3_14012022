@@ -23,6 +23,15 @@ a {
   text-decoration: none;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
 /* ----------
    HEADER 
 ---------- */
@@ -196,6 +205,27 @@ a {
 /* //////////
    FOOTER 
 ////////// */
+footer {
+  padding: 25px 20px 30px;
+  background-color: black;
+  color: white;
+  opacity: 0.85;
+}
+footer p {
+  font-family: "Shrikhand";
+  padding-bottom: 10px;
+}
+footer li {
+  padding-bottom: 10px;
+}
+footer li i {
+  display: flex;
+  flex-direction: start;
+  width: 16px;
+  font-size: 80%;
+  margin-right: 15px;
+}
+
 /* 
             BORDER  
 {
