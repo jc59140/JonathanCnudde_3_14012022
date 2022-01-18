@@ -1,5 +1,5 @@
 $color-primary: #9356DC;
-$color-secondary: #FF79DA ;
+$color-secondary: #FF79DA;
 $color-tertiary: #99E2D0;
 
 /* ==========
@@ -91,8 +91,59 @@ h1, p{
             font-weight: 500;
             border: none;
             border-radius: 25px;
-            box-shadow: 0 5px 5px lightgrey;
+            box-shadow: 0 5px 5px lightgrey; /*mixin*/
         }   
+    }
+}
+
+/* ***** SECTION FUNCTIONNING ***** */
+.functionning{
+    padding: 40px 20px 50px;
+    border: 2px solid blue;
+
+    h2{
+        margin: 0 0 25px 0;
+    }
+    
+    div{
+        display: flex;
+        align-items: center;
+        margin: 0 0 20px 10px;
+        padding: 25px 0;
+        border-radius: 20px;
+        background-color: #f3f3f3;
+        box-shadow: 0 5px 5px lightgrey; /*mixin*/
+
+
+        .bullet{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 22px;
+            height: 22px;
+            position: relative;
+            font-size: 75%;
+            right: 12px;
+            border-radius: 15px;
+            background-color: $color-primary;
+            color: white;
+        }
+
+        span{
+            display: flex;
+            flex-direction: start;
+            width: 35px;
+            margin-left: 10px;
+            color: grey;
+        }
+
+        .purple{
+            color: $color-primary;
+        }
+
+        .title{
+            font-weight: 500;
+        }
     }
 }
 

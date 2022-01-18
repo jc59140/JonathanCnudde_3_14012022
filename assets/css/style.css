@@ -71,6 +71,52 @@ h1, p {
   border: none;
   border-radius: 25px;
   box-shadow: 0 5px 5px lightgrey;
+  /*mixin*/
+}
+
+/* ***** SECTION FUNCTIONNING ***** */
+.functionning {
+  padding: 40px 20px 50px;
+  border: 2px solid blue;
+}
+.functionning h2 {
+  margin: 0 0 25px 0;
+}
+.functionning div {
+  display: flex;
+  align-items: center;
+  margin: 0 0 20px 10px;
+  padding: 25px 0;
+  border-radius: 20px;
+  background-color: #f3f3f3;
+  box-shadow: 0 5px 5px lightgrey;
+  /*mixin*/
+}
+.functionning div .bullet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 22px;
+  height: 22px;
+  position: relative;
+  font-size: 75%;
+  right: 12px;
+  border-radius: 15px;
+  background-color: #9356DC;
+  color: white;
+}
+.functionning div span {
+  display: flex;
+  flex-direction: start;
+  width: 35px;
+  margin-left: 10px;
+  color: grey;
+}
+.functionning div .purple {
+  color: #9356DC;
+}
+.functionning div .title {
+  font-weight: 500;
 }
 
 /* //////////
