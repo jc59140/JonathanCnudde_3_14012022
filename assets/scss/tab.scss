@@ -3,12 +3,12 @@
    MAIN 
 ********** */
     .list{
-        display: flex;
         flex-direction: row;
+        
+        .sublist{
+            display: flex;
+            flex-direction: row;
+        }
     }
 
-    .sublist{
-        display: flex;
-        flex-direction: row;
-    }
 }

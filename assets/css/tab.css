@@ -3,11 +3,9 @@
      MAIN 
   ********** */
   .list {
-    display: flex;
     flex-direction: row;
   }
-
-  .sublist {
+  .list .sublist {
     display: flex;
     flex-direction: row;
   }

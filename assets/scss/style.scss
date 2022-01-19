@@ -101,7 +101,7 @@ li {
 
         button{
             padding: 12px 20px;
-            background-image: linear-gradient(170deg, $color-secondary, $color-primary);
+            background-image: linear-gradient(175deg, $color-secondary, $color-primary);
             color: white;
             font-weight: 500;
             border: none;
@@ -189,63 +189,85 @@ li {
         display: flex;
         flex-direction: column;
         gap: 15px;
+        
+        .sublist{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
     }
-
-    .sublist{
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
+    
+    .new{
+        position: relative;
+    }
+    .new::before {
+        content: "Nouveau";
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        z-index: 1;
+        padding: 7px 14px;
+        font-weight: 600;
+        border-radius: 2px;
+        background-color: $color-tertiary;
+        color: darken($color-tertiary, 40%);
     }
     
     .card{
         .img-container {
-          width: 100%;
-          height: 170px;
-    
-          img {
+            position: relative;
             width: 100%;
-            height: 100%;
-            object-fit: cover;
-            border-radius: 15px 15px 0 0;
-          }
+            height: 170px;
+            
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 15px 15px 0 0;
+            }
+        
         }
     
         .info-container {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          padding: 10px 25px 10px 10px;
-          height: 75px;
-          border-radius: 0 0 15px 15px;
-          background-color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 25px 10px 10px;
+            height: 75px;
+            border-radius: 0 0 15px 15px;
+            background-color: white;
 
-          .info{
-              h3{
-                  padding-bottom: 5px;;
-              }
-          }
+            .info{
+                h3{
+                    padding-bottom: 5px;;
+                }
+            }
 
-          span{
-              font-size: 150%;
-              color: grey;
-          }
+            span{
+                font-size: 150%;
+                color: grey;
+            }
 
-          i:hover{
-            font-weight: bold;
-            color: $color-primary;
-          }
+            i:hover{
+                font-weight: bold;
+                color: $color-primary;
+            }
         }
     }
 }
   
+.restaurants > *{
+    border: 2px solid red;
+}
+.list > *{
+    border: 2px solid yellow;
+}
+
+.img-container{
+    border: 2px solid blue;
+}
   /* #restaurants{
       border: 2px solid blue;
-  }
-  #restaurants > *{
-      border: 2px solid red;
-  }
-  #list > *{
-      border: 2px solid yellow;
   }
   .card{
       border: 2px solid green;

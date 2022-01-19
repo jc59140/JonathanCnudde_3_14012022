@@ -79,7 +79,7 @@ li {
 }
 .search__heading button {
   padding: 12px 20px;
-  background-image: linear-gradient(170deg, #FF79DA, #9356DC);
+  background-image: linear-gradient(175deg, #FF79DA, #9356DC);
   color: white;
   font-weight: 500;
   border: none;
@@ -144,12 +144,28 @@ li {
   flex-direction: column;
   gap: 15px;
 }
-.restaurants .sublist {
+.restaurants .list .sublist {
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
+.restaurants .new {
+  position: relative;
+}
+.restaurants .new::before {
+  content: "Nouveau";
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 1;
+  padding: 7px 14px;
+  font-weight: 600;
+  border-radius: 2px;
+  background-color: #99E2D0;
+  color: #278870;
+}
 .restaurants .card .img-container {
+  position: relative;
   width: 100%;
   height: 170px;
 }
@@ -180,14 +196,20 @@ li {
   color: #9356DC;
 }
 
+.restaurants > * {
+  border: 2px solid red;
+}
+
+.list > * {
+  border: 2px solid yellow;
+}
+
+.img-container {
+  border: 2px solid blue;
+}
+
 /* #restaurants{
     border: 2px solid blue;
-}
-#restaurants > *{
-    border: 2px solid red;
-}
-#list > *{
-    border: 2px solid yellow;
 }
 .card{
     border: 2px solid green;
