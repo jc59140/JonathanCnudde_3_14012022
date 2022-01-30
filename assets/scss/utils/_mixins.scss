@@ -7,13 +7,10 @@
     border: $taille $style $color;
 }
 
-// @mixin linear-gradient($background:background-image, $direction:to top, $color1:purple, $color2:pink){
-//     $background: linear-gradient($direction, $color1, $color2);
-// }
+// LINEAR-GRADIENT
 @mixin linear-gradient($direction:175deg, $color1:variables.$color-secondary, $color2:variables.$color-primary){
     background-image: linear-gradient($direction, $color1, $color2);
 }
-// background-image: linear-gradient(175deg, variables.$color-secondary, variables.$color-primary);
 
 
 // MEDIA QUERIES
