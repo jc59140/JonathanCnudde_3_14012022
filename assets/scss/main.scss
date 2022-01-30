@@ -1,5 +1,5 @@
-@use "./utils/variables";
-@use "./utils/mixins";
+// @use "./utils/variables";
+// @use "./utils/mixins";
 @use "./base/base";
 @use "./components/btn";
 @use "./components/new";
@@ -16,7 +16,6 @@
 
 
 
-// $color-quaternary: #f3f3f3;
+//mixin flex?
 
-// mixin linear-gradient;
-// mixin border-shadow;
+//mixin transition?
