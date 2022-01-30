@@ -1,0 +1,26 @@
+// @use "../utils/variables";
+@use "../utils/mixins";
+
+/* /////////////
+   COMPONENTS
+///////////// */
+
+/* ***** BOUTON ****** */
+.btn{
+    padding: 12px 20px;
+    // background-image: linear-gradient(175deg, variables.$color-secondary, variables.$color-primary);
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 5px 5px rgba(150, 150, 150, 0.5); /*mixin*/
+    transition: all 200ms ease-in-out;
+    cursor: pointer;
+
+    @include mixins.linear-gradient;
+
+    &:hover{
+        opacity: 0.8;
+        box-shadow: 0 5px 5px rgba(150, 150, 150, 1);
+    } 
+} 

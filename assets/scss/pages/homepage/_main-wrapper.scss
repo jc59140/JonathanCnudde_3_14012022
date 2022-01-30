@@ -1,0 +1,17 @@
+@use "../../utils/mixins";
+
+/* ////////
+   PAGES
+//////// */
+
+/* ***********
+   HOMEPAGE 
+*********** */
+
+/* ***** MAIN ***** */
+.main-wrapper{
+
+    @include mixins.tablette {
+        display: flex;
+    }
+}

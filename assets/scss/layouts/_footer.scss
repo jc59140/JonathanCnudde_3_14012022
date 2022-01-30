@@ -1,0 +1,54 @@
+@use "../utils/mixins";
+
+/* ***** FOOTER ***** */
+.footer {
+    padding: 25px 20px 30px;
+    background-color: black;
+    color: white;
+    opacity: 0.85;
+
+    @include mixins.desktop {
+        padding: 30px;
+    }
+    
+    &__logo{
+        font-family: "Shrikhand";
+        margin-bottom: 20px;
+    }
+
+    &__wrapper{
+
+        @include mixins.tablette {
+            display: flex;
+        }
+    }
+    
+    &__sublist{
+        
+        @include mixins.tablette {
+            width: 50%;
+        }
+        @include mixins.desktop {
+            display: flex;
+            gap: 25px;
+        }
+
+        li{
+            padding-bottom: 10px;
+
+            @include mixins.desktop {
+                width: 45%;
+            }
+            
+            i{
+                width: 16px;
+                font-size: 80%;
+                margin-right: 15px;
+        
+                @include mixins.desktop {
+                    margin-right: 5px;
+                }
+            }           
+        }
+    }
+}

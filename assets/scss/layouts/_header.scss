@@ -1,0 +1,54 @@
+@use "../utils/mixins";
+
+/* //////////
+   LAYOUTS 
+////////// */
+
+/* ***** HEADER ***** */
+.header{
+    position: relative;
+    box-shadow: 0 0 5px grey;
+    
+    &__icon-container{
+        position: absolute;
+        top: 12px;
+        left: 20px;
+        z-index: 1;
+        
+        &--transparent{
+            opacity: 0;
+            z-index: 0;
+        }
+        
+        @include mixins.tablette {
+            top: 25px;
+            left: 40px;
+        }
+    
+        a{
+            font-size: 150%;
+            
+            @include mixins.tablette {
+                font-size: 200%;
+            }
+        }
+    }
+    
+    &__logo-container{
+        padding: 10px;
+        text-align: center;
+    
+        @include mixins.tablette {
+            padding: 20px;
+        }
+    
+        img{
+            width: 175px;
+    
+            @include mixins.tablette {
+                width: 250px;
+            }
+        }
+    }
+}
+

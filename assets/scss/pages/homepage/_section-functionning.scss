@@ -1,0 +1,63 @@
+@use "../../utils/variables";
+@use "../../utils/mixins";
+
+/* ***** SECTION FUNCTIONNING ***** */
+.functionning{
+    padding: 40px 20px 45px;
+    
+    @include mixins.tablette {
+        width: 50%;
+        padding: 20px;
+    }
+
+    h2{
+        margin: 0 0 25px 0;
+
+        @include mixins.tablette {
+            text-align: center;
+        }
+    }
+    
+    &__steps{
+        display: flex;
+        align-items: center;
+        min-width: 270px;
+        margin: 0 0 20px 10px;
+        padding: 25px 0;
+        border-radius: 20px;
+        background-color: #f3f3f3;
+        box-shadow: 0 5px 5px lightgrey; /*mixin*/
+        
+        &--bg-purple{
+            background-color: rgba(variables.$color-primary, 0.1)
+        }
+        
+        &-bullet{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 22px;
+            height: 22px;
+            position: relative;
+            font-size: 75%;
+            right: 12px;
+            border-radius: 15px;
+            background-color: variables.$color-primary;
+            color: white;
+        }
+        
+        &-icon{
+            width: 35px;
+            margin-left: 10px;
+            color: grey;
+
+            &--purple{
+                color: variables.$color-primary;
+            }       
+        }
+
+        &-title{
+            font-weight: 500;
+        }   
+    }
+}
