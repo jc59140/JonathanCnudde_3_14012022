@@ -26,7 +26,8 @@
         padding: 25px 0;
         border-radius: 20px;
         background-color: variables.$color-bg;
-        box-shadow: 0 5px 5px lightgrey; /*mixin*/
+        
+        @include mixins.box-shadow($opacity: 0.2);
         
         &--bg-purple{
             background-color: rgba(variables.$color-primary, 0.1)

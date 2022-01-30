@@ -6,9 +6,10 @@
     flex-direction: column;
     justify-content: stretch;
     border-radius: 17px;
-    box-shadow: 0 5px 5px rgba(150, 150, 150, 0.5);
     background-color: white;
     transition: all 100ms ease-in-out;
+    
+    @include mixins.box-shadow($opacity: 0.2);
     
     &:hover{
         transform: scale(1.02); 
