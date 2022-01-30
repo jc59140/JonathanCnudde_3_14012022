@@ -1,9 +1,10 @@
+@use "../utils/variables";
 @use "../utils/mixins";
 
 /* ***** FOOTER ***** */
 .footer {
     padding: 25px 20px 30px;
-    background-color: black;
+    background-color: darken(variables.$color-bg, 75%);
     color: white;
     opacity: 0.85;
 

@@ -25,7 +25,7 @@
         margin: 0 0 20px 10px;
         padding: 25px 0;
         border-radius: 20px;
-        background-color: #f3f3f3;
+        background-color: variables.$color-bg;
         box-shadow: 0 5px 5px lightgrey; /*mixin*/
         
         &--bg-purple{
@@ -49,7 +49,7 @@
         &-icon{
             width: 35px;
             margin-left: 10px;
-            color: grey;
+            color: darken(variables.$color-bg, 50%);
 
             &--purple{
                 color: variables.$color-primary;

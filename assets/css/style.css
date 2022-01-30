@@ -112,7 +112,7 @@ li {
   align-items: center;
   height: 100%;
   width: 100%;
-  background-color: lightgrey;
+  background-color: #f3f3f3;
   opacity: 0.8;
   animation: vanishing 500ms 3s;
   animation-fill-mode: forwards;
@@ -221,7 +221,7 @@ li {
 /* ***** FOOTER ***** */
 .footer {
   padding: 25px 20px 30px;
-  background-color: black;
+  background-color: #343434;
   color: white;
   opacity: 0.85;
 }
@@ -293,14 +293,14 @@ li {
   }
 }
 .search__form {
-  background-color: #e9e9e9;
+  background-color: #e6e6e6;
 }
 .search__form > * {
   font-size: 104%;
 }
 .search__form input {
   padding: 14px 15px;
-  background-color: #e9e9e9;
+  background-color: #e6e6e6;
   font-weight: bold;
   border: none;
 }
@@ -377,7 +377,7 @@ li {
 .functionning__steps-icon {
   width: 35px;
   margin-left: 10px;
-  color: grey;
+  color: #747474;
 }
 .functionning__steps-icon--purple {
   color: #9356DC;

@@ -27,7 +27,7 @@
     align-items: center;
     height: 100%;
     width: 100%;
-    background-color: lightgrey;
+    background-color: variables.$color-bg;
     opacity: 0.8;
     animation: vanishing 500ms 3s;
     animation-fill-mode: forwards;
