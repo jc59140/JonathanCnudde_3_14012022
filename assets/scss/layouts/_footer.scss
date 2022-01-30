@@ -6,7 +6,6 @@
     padding: 25px 20px 30px;
     background-color: darken(variables.$color-bg, 75%);
     color: white;
-    opacity: 0.85;
 
     @include mixins.desktop {
         padding: 30px;
