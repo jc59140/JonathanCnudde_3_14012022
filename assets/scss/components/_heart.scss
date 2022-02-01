@@ -20,7 +20,9 @@
 
         &--solid{
             color: transparent;
+            -webkit-text-fill-color: transparent; //ajouter webkit pour chrome
             background-clip: text;
+            -webkit-background-clip: text;
             transform: scale(0);
             transition: transform 200ms ease;
 

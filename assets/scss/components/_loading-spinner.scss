@@ -36,7 +36,9 @@
     i{
         font-size: 400%;
         color: transparent;
+        -webkit-text-fill-color: transparent; 
         background-clip: text;
+        -webkit-background-clip: text;
         background-image: linear-gradient(to top, variables.$color-secondary, variables.$color-primary);                    
         animation: spinner 1000ms infinite ease;
     }
