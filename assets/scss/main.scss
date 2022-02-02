@@ -1,5 +1,6 @@
 // @use "./utils/variables";
 // @use "./utils/mixins";
+@use "./utils/keyframes";
 @use "./base/base";
 @use "./components/btn";
 @use "./components/new";
@@ -8,6 +9,7 @@
 @use "./layouts/header";
 @use "./layouts/card";
 @use "./layouts/footer";
+@use "./layouts/menu";
 @use "./pages/homepage/main-wrapper";
 @use "./pages/homepage/section-search";
 @use "./pages/homepage/section-functionning";
@@ -17,5 +19,4 @@
 
 
 //mixin flex?
-
 //mixin transition?
