@@ -154,7 +154,6 @@ li {
   position: absolute;
   top: 12px;
   left: 20px;
-  z-index: 1;
 }
 @media all and (min-width: 700px) {
   .header__icon-container {
