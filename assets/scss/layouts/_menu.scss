@@ -109,13 +109,25 @@
     @include mixins.box-shadow;
 
     &:hover{
-        & i{
+        i{
             animation: spinner 500ms 150ms ease forwards;
         }
 
-        & .dish__icon-container{
+        .dish__icon-container{
             margin-right: 0;
         }
+
+        .dish__title{
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        // .dish__info{
+        //     overflow: hidden;
+        //     text-overflow: ellipsis;
+        //     white-space: nowrap;
+        // }
     } 
     
     &__heading{
@@ -125,9 +137,9 @@
     }
 
     &__title{
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
+        // overflow: hidden;
+        // text-overflow: ellipsis;
+        // white-space: nowrap;
         margin-right: 43px;
     }
     
