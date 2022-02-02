@@ -21,9 +21,8 @@
             left: 40px;
         }
 
-        &--transparent{ //invisible
-            opacity: 0;
-            z-index: 0;
+        &--invisible{ 
+            transform: scale(0);
         }
         
     

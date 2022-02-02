@@ -162,9 +162,8 @@ li {
     left: 40px;
   }
 }
-.header__icon-container--transparent {
-  opacity: 0;
-  z-index: 0;
+.header__icon-container--invisible {
+  transform: scale(0);
 }
 .header__icon-container a {
   font-size: 150%;
