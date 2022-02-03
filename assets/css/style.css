@@ -76,6 +76,10 @@ li {
   box-shadow: 0 5px 5px 0 #969696;
 }
 
+.btn--large {
+  padding: 15px 55px;
+}
+
 /* ***** NEW ***** */
 .new {
   position: relative;
@@ -357,9 +361,6 @@ li {
 .menu__btn-container {
   margin-top: 20px;
   text-align: center;
-}
-.menu__btn-container button {
-  padding: 15px 55px;
 }
 
 .dish {

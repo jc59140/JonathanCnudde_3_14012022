@@ -24,3 +24,7 @@
         @include mixins.box-shadow($opacity: 1);
     } 
 } 
+
+.btn--large{
+    padding: 15px 55px;
+}
