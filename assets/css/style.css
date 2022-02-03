@@ -154,25 +154,25 @@ li {
   position: relative;
   box-shadow: 0 2px 5px 0 rgba(150, 150, 150, 0.5);
 }
-.header__icon-container {
+.header__navbar {
   position: absolute;
   top: 12px;
   left: 20px;
 }
 @media all and (min-width: 700px) {
-  .header__icon-container {
+  .header__navbar {
     top: 25px;
     left: 40px;
   }
 }
-.header__icon-container--invisible {
+.header__navbar--invisible {
   transform: scale(0);
 }
-.header__icon-container a {
+.header__navbar a {
   font-size: 150%;
 }
 @media all and (min-width: 700px) {
-  .header__icon-container a {
+  .header__navbar a {
     font-size: 200%;
   }
 }
