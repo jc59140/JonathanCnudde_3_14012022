@@ -292,11 +292,11 @@ li {
 .menu {
   background-color: #e6e6e6;
 }
-.menu__img-container {
+.menu__banner {
   width: 100%;
   height: 300px;
 }
-.menu__img-container img {
+.menu__banner img {
   width: 100%;
   height: 100%;
   object-fit: cover;
