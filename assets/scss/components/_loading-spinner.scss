@@ -11,8 +11,7 @@
     width: 100%;
     background-color: variables.$color-bg;
     opacity: 0.8;
-    animation: vanishing 500ms 3s; // shorthand -> forwards , bottom?
-    animation-fill-mode: forwards;
+    animation: vanishing 500ms 3s forwards; 
     transform-origin: bottom;
 
     i{

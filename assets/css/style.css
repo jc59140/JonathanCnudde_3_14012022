@@ -132,8 +132,7 @@ li {
   width: 100%;
   background-color: #f3f3f3;
   opacity: 0.8;
-  animation: vanishing 500ms 3s;
-  animation-fill-mode: forwards;
+  animation: vanishing 500ms 3s forwards;
   transform-origin: bottom;
 }
 .loading-spinner i {
