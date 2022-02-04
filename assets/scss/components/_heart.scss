@@ -18,14 +18,11 @@
         top: 2px;
 
         &--solid{
-            color: transparent;
-            -webkit-text-fill-color: transparent; 
-            background-clip: text;
-            -webkit-background-clip: text;
             transform: scale(0);
             transition: transform 200ms ease;
 
             @include mixins.linear-gradient($direction:to top);
+            @include mixins.background-clip-text;
         }
     }
 }

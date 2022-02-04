@@ -112,13 +112,12 @@ li {
   top: 2px;
 }
 .heart__icon--solid {
-  color: transparent;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  -webkit-background-clip: text;
   transform: scale(0);
   transition: transform 200ms ease;
   background-image: linear-gradient(to top, #FF79DA, #9356DC);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
 }
 
 /* ***** LOADING SPINNER ***** */
@@ -137,12 +136,11 @@ li {
 }
 .loading-spinner i {
   font-size: 400%;
+  animation: spinner 1000ms infinite ease;
   color: transparent;
-  -webkit-text-fill-color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
   background-image: linear-gradient(to top, #FF79DA, #9356DC);
-  animation: spinner 1000ms infinite ease;
 }
 
 /* //////////
