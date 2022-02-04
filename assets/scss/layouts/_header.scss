@@ -24,12 +24,11 @@
             transform: scale(0);
         }
         
-        a{ //i
+        a{
             font-size: 150%;
             
             @include mixins.tablette {
                 font-size: 200%;
-                // transform: scale(1.5);
             }
         }
     }
@@ -47,7 +46,6 @@
     
             @include mixins.tablette {
                 width: 250px;
-                // transform: scale(1.5);
             }
         }
     }
