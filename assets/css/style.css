@@ -241,14 +241,19 @@ li {
   background-color: #343434;
   color: white;
 }
-@media all and (min-width: 1000px) {
+@media all and (min-width: 700px) {
   .footer {
-    padding: 30px;
+    padding: 35px 20px 45px;
   }
 }
 .footer__logo {
   font-family: "Shrikhand", "cursive";
   margin-bottom: 20px;
+}
+@media all and (min-width: 700px) {
+  .footer__logo {
+    margin-bottom: 30px;
+  }
 }
 @media all and (min-width: 700px) {
   .footer__wrapper {

@@ -7,13 +7,17 @@
     background-color: darken(variables.$color-bg, 75%);
     color: white;
 
-    @include mixins.desktop {
-        padding: 30px;
+    @include mixins.tablette {
+        padding: 35px 20px 45px;
     }
     
     &__logo{
-        font-family: "Shrikhand", "cursive"; //
+        font-family: "Shrikhand", "cursive"; 
         margin-bottom: 20px;
+
+        @include mixins.tablette {
+            margin-bottom: 30px;
+        }
     }
 
     &__wrapper{
