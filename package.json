@@ -1,0 +1,22 @@
+{
+  "name": "ohmyfood",
+  "version": "1.0.0",
+  "description": "openclassrooms projet 3 ohmyfood ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jc59140/JonathanCnudde_3_14012022.git"
+  },
+  "author": "Jonathan Cnudde",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jc59140/JonathanCnudde_3_14012022/issues"
+  },
+  "homepage": "https://github.com/jc59140/JonathanCnudde_3_14012022#readme",
+  "devDependencies": {
+    "sass": "^1.49.7"
+  }
+}
