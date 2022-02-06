@@ -1,12 +1,6 @@
 @use "./variables";
 @use "./maps";
 
-
-// BORDERS (pour les tests) 
-@mixin border($taille:2px, $style:solid, $color:black){
-    border: $taille $style $color;
-}
-
 // LINEAR-GRADIENT
 @mixin linear-gradient($direction:175deg, $color1:variables.$color-secondary, $color2:variables.$color-primary){
     background-image: linear-gradient($direction, $color1, $color2);
