@@ -62,7 +62,7 @@ li {
 /* ***** BOUTON ****** */
 .btn {
   padding: 12px 20px;
-  color: white;
+  color: #ffffff;
   font-weight: 500;
   border: none;
   border-radius: 25px;
@@ -197,7 +197,7 @@ li {
   flex-direction: column;
   justify-content: stretch;
   border-radius: 17px;
-  background-color: white;
+  background-color: #ffffff;
   transition: all 100ms ease-in-out;
   box-shadow: 0 5px 5px 0 rgba(150, 150, 150, 0.2);
 }
@@ -227,7 +227,7 @@ li {
   gap: 15px;
   padding: 10px 15px 10px 10px;
   border-radius: 0 0 15px 15px;
-  background-color: white;
+  background-color: #ffffff;
 }
 .card__title {
   padding-bottom: 5px;
@@ -237,7 +237,7 @@ li {
 .footer {
   padding: 25px 20px 30px;
   background-color: #343434;
-  color: white;
+  color: #ffffff;
 }
 @media all and (min-width: 700px) {
   .footer {
@@ -369,7 +369,7 @@ li {
   display: flex;
   margin-bottom: 15px;
   border-radius: 15px;
-  background-color: white;
+  background-color: #ffffff;
   overflow: hidden;
   box-shadow: 0 5px 5px 0 rgba(150, 150, 150, 0.5);
 }
@@ -419,7 +419,7 @@ li {
 }
 .dish__icon-container i {
   font-size: 150%;
-  color: white;
+  color: #ffffff;
 }
 
 /* ////////
@@ -527,7 +527,7 @@ li {
   right: 12px;
   border-radius: 15px;
   background-color: #9356DC;
-  color: white;
+  color: #ffffff;
 }
 .functionning__steps-icon {
   width: 35px;

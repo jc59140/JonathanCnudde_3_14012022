@@ -90,7 +90,7 @@
     display: flex;
     margin-bottom: 15px;
     border-radius: 15px;
-    background-color: white;
+    background-color: variables.$color-white;
     overflow: hidden;
     
     @include mixins.box-shadow;
@@ -151,7 +151,7 @@
                 
         i{
             font-size: 150%;
-            color: white;  
+            color: variables.$color-white;
         }
     }
 }

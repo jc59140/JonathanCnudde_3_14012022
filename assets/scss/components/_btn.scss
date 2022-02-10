@@ -1,3 +1,4 @@
+@use "../utils/variables";
 @use "../utils/mixins";
 
 /* /////////////
@@ -7,7 +8,7 @@
 /* ***** BOUTON ****** */
 .btn{
     padding: 12px 20px;
-    color: white;
+    color: variables.$color-white;
     font-weight: 500;
     border: none;
     border-radius: 25px;
