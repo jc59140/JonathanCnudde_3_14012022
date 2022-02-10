@@ -18,6 +18,13 @@
     -webkit-background-clip: text;
 }
 
+//ELLIPSIS
+@mixin ellipsis{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
 // MEDIA QUERIES
 @mixin tablette{
     @media all 
