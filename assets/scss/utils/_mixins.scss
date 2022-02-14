@@ -18,6 +18,15 @@
     -webkit-background-clip: text;
 }
 
+//APPEAR-DELAY
+@mixin appear-delay{
+    @for $i from 1 through 3{
+        &:nth-child(#{$i}){
+            animation: appear 1000ms (300*(($i)-1)+100ms) ease-in-out both;
+        }
+    }
+}
+
 //ELLIPSIS
 @mixin ellipsis{
     overflow: hidden;

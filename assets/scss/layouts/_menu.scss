@@ -50,16 +50,11 @@
     &-card{
         padding-bottom: 15px;
 
+        @include mixins.appear-delay;
         @include mixins.desktop {
             display: flex;
             flex-direction: column;
             width: 30%;
-        }
-
-        @for $i from 1 through 3{
-            &:nth-child(#{$i}){
-                animation: appear 1000ms (300*(($i)-1)+100ms) ease-in-out both;
-            }
         }
                       
         &__title{
